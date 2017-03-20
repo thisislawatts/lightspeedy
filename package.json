@@ -1,0 +1,27 @@
+{
+  "name": "lightspeedy",
+  "version": "0.1.0",
+  "description": "Make updates to your Lightspeed store theme without using the inbuilt editor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisislawatts/lightspeedy.git"
+  },
+  "keywords": [
+    "lightspeed"
+  ],
+  "author": "Luke Watts <luke@thisis.la>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisislawatts/lightspeedy/issues"
+  },
+  "homepage": "https://github.com/thisislawatts/lightspeedy#readme",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "nightmare-lightspeed": "^1.0.0",
+    "through2": "^2.0.3"
+  }
+}
